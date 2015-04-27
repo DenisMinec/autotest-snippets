@@ -1,0 +1,46 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1430164374506" stop="1430164374510">
+  <name>test_01_yield_fixture_and_scope</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1430164374506" status="passed" stop="1430164374507">
+      <name>test_01</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374507" status="passed" stop="1430164374508">
+      <name>test_02</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374508" status="passed" stop="1430164374509">
+      <name>TestCase.test_03</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374509" status="passed" stop="1430164374510">
+      <name>TestCase.test_04</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

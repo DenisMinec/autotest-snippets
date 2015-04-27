@@ -1,0 +1,75 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1430164374511" stop="1430164374520">
+  <name>test_02_parametrize</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1430164374512" status="passed" stop="1430164374513">
+      <name>test_login[test-test-True]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374513" status="passed" stop="1430164374514">
+      <name>test_login[Peter-test-False]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374514" status="passed" stop="1430164374515">
+      <name>test_login[--False]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374515" status="failed" stop="1430164374519">
+      <name>test_login[-test-False]</name>
+      <failure>
+        <stack-trace>usr = '', pwd = 'test', expected = False
+
+    @pytest.mark.parametrize('usr, pwd, expected', [
+        ('test', 'test', True),
+        ('Peter', 'test', False),
+        ('', '', False),
+        ('', 'test', False),
+        ('login', '', False)
+    ])
+    def test_login(usr, pwd, expected):
+&gt;       assert check_usr(usr, pwd) == expected
+E       assert True == False
+E        +  where True = check_usr('', 'test')
+
+test_02_parametrize.py:20: AssertionError</stack-trace>
+        <message>AssertionError: assert True == False
+ +  where True = check_usr('', 'test')</message>
+      </failure>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374520" status="passed" stop="1430164374520">
+      <name>test_login[login--False]</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

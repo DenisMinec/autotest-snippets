@@ -12,6 +12,7 @@ script = None
 with open('drag_and_drop_helper.js') as f:
     script = f.read()
 
+
 # создаем функцию, которой можно будет пользоваться в любом месте
 def perform_html5_drag_and_drop(driver, source_css_selector, target_css_selector):
     driver.execute_script(jQuery)

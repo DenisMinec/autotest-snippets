@@ -1,0 +1,105 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1430164374522" stop="1430164374536">
+  <name>test_03_with_allure</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1430164374522" status="passed" stop="1430164374525">
+      <name>test_01</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps>
+        <step start="1430164374524" status="passed" stop="1430164374524">
+          <name>test_01</name>
+          <title>test_01</title>
+          <attachments>
+            <attachment source="3b8a27d4-95b5-4be7-bc92-382636fca802-attachment.txt" title="attach_title" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1430164374525" status="passed" stop="1430164374526">
+      <name>test_02</name>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps>
+        <step start="1430164374526" status="passed" stop="1430164374526">
+          <name>another unuseful step</name>
+          <title>another unuseful step</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1430164374527" status="failed" stop="1430164374532">
+      <name>test_minor</name>
+      <failure>
+        <stack-trace>@allure.feature('Feature1')
+    @allure.story('Story1')
+    @allure.severity(Severity.MINOR)
+    def test_minor():
+&gt;       assert False
+E       assert False
+
+test_03_with_allure.py:33: AssertionError</stack-trace>
+        <message>AssertionError: assert False</message>
+      </failure>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="story" value="Story1"/>
+        <label name="feature" value="Feature1"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374533" status="passed" stop="1430164374534">
+      <name>TestBar.test_bar</name>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="Story4"/>
+        <label name="story" value="Story2"/>
+        <label name="story" value="Story3"/>
+        <label name="feature" value="Feature2"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374534" status="passed" stop="1430164374535">
+      <name>TestBar.test_bar_2</name>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="severity" value="critical"/>
+        <label name="story" value="Story4"/>
+        <label name="story" value="Story2"/>
+        <label name="story" value="Story3"/>
+        <label name="feature" value="Feature2"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+    <test-case start="1430164374535" status="passed" stop="1430164374536">
+      <name>test_f</name>
+      <labels>
+        <label name="testId" value="http://my.tms.org/browse/TESTCASE-2"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="13110-MainThread"/>
+        <label name="host" value="alex-N751JK"/>
+      </labels>
+      <attachments/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
