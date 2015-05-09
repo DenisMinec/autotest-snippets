@@ -18,4 +18,4 @@
 * `base_page.py` - base page functionality 
 
 [1]: https://www.python.org/downloads/
-[2]: http://docs.seleniumhq.org/download/prew
+[2]: http://docs.seleniumhq.org/download/
